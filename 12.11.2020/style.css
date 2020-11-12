@@ -1,0 +1,33 @@
+body {
+ margin: 0;
+}
+
+.cont {
+    height: 90vw;
+    width: 90vw;
+    background: seagreen;
+    margin: 5vh auto;
+    /*border-radius: 20px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    /*
+    выравнивание flex-элементов вдоль основной оси
+
+    
+    */
+}
+.card {
+    padding: 20px;
+    font: 40px / 1 sans-serif;
+    border-radius: 50%;
+    background: cornflowerblue;
+    color: seagreen;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+}
+.card:hover {
+    background: crimson;
+}
