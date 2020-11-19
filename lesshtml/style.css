@@ -1,0 +1,16 @@
+.cards-cont {
+    background: black;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: calc(100% / 3 - 100px / 3);
+    border: 1px solid bisque;
+    padding: 20px;
+    color: bisque;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
